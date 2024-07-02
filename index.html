@@ -18,6 +18,38 @@
         .navbar.fixed-bottom {
             background-color: var(--bs-gray-200);
         }
+        #item-5{
+            margin-bottom: 50%;
+        }
+        #item-5 table{
+            margin: auto;
+            width: 100%;
+        }
+        .picture {
+            width: 100%;
+            height: 0;
+            padding-bottom: 100%; /* Tạo thành hình vuông */
+            border-radius: 20%;
+            background-color: aqua;
+            position: relative; /* Để các phần tử bên trong được định vị tương đối */
+        }
+
+        /* .picture img {
+            position: absolute; /* Đảm bảo hình ảnh điền vào toàn bộ vùng chứa */
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Đảm bảo hình ảnh lấp đầy vùng chứa */
+            border-radius: inherit; /* Kế thừa border-radius từ phần tử cha */
+        } */
+
+        .picture-hidden {
+            width: 100%;
+            height: 0;
+            padding-bottom: 100%; /* Tạo thành hình vuông ẩn */
+            opacity: 0;
+            position: relative;
+        }
+
     </style>
 </head>
 
@@ -59,10 +91,155 @@
             <p>...</p>
         </div>
         <div id="item-5">
-            <h4>Item 5</h4>
-            <p>...</p>
+            <div class="container-fluid">
+                <table>
+                    <tbody>
+                      <tr>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                        <td>
+                            <div class="picture-hidden"><img src="" alt=""></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
         </div>
-      </div>
+    </div>
+
+
+
     <!-- nav bottom -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-bottom">
         <div class="container justify-content-center">
