@@ -2,4 +2,21 @@
     body{
         width: 100%;
     }
+    .item-1{
+        padding-top: 100px;
+    }
+    .img-header-1,.img-header-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-header-1 img{
+        width: 150%;
+    }
+    .img-header-2 img{
+        width: 100%;
+    }
+    .name-header-1,.name-header-2{
+        font-size: 30px;
+    }
 }
