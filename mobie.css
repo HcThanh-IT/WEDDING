@@ -2,6 +2,14 @@
     body{
         width: 100%;
     }
+    #item-1,#item-2,#item-3,#item-4,#item-5{
+        width: 95%;
+        margin: auto;
+    }
+    #carouselExampleAutoplaying{
+        width: 100%;
+    }
+    
     .item-1{
         padding-top: 100px;
     }
@@ -18,5 +26,8 @@
     }
     .name-header-1,.name-header-2{
         font-size: 30px;
+    }
+    #item-5{
+        margin-bottom: 150px;
     }
 }

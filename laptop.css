@@ -55,6 +55,8 @@ body{
 }
 #item-5{
     margin-bottom: 50%;
+    width: 70%;
+    margin: auto;
 }
 #item-5 table{
     margin: auto;
